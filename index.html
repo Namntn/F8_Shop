@@ -19,14 +19,29 @@
             <div class="grid">
                 <nav class="header__navbar">
                     <ul class="header__navbar-list">
-                        <li class="header__navbar-item header__navbar-item--separate">Vào cửa hàng trên ứng dụng F8-Shop</li>
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            Vào cửa hàng trên ứng dụng F8-Shop
+                           
+                            <!-- Header QR code -->
+                            <div class="header__qr">
+                                <img src="./assets/img/QR_code.png" alt="QR_code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/Appstore.png" alt="Appstore" class="header__qr-download-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/Googleplay.png" alt="Googleplay" class="header__qr-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
                         <li class="header__navbar-item">
-                            Kết nối
+                            <span class="header__navbar-title--no-pointer">Kết nối</span>
                             <a href="" class="header__navbar-icon-link">
-                                <i class="fa-brands fa-facebook"></i>
+                                <i class="header__navbar-icon fa-brands fa-facebook"></i>
                             </a>
                             <a href="" class="header__navbar-icon-link">
-                                <i class="fa-brands fa-instagram"></i>
+                                <i class="header__navbar-icon fa-brands fa-instagram"></i>
                             </a>
                         </li>
                     </ul>
@@ -34,12 +49,12 @@
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item">
                             <a href="" class="header__navbar-item-link">
-                                <i class="fa-regular fa-bell"></i>Thông báo
+                                <i class="header__navbar-icon fa-regular fa-bell"></i>Thông báo
                             </a>
                         </li>
                         <li class="header__navbar-item">
                             <a href="" class="header__navbar-item-link">
-                                <i class="fa-regular fa-circle-question"></i>Trợ giúp
+                                <i class="header__navbar-icon fa-regular fa-circle-question"></i>Trợ giúp
                             </a>
                         </li>
                         <li class="header__navbar-item header__navbar-item--bold header__navbar-item--separate">Đăng ký</li>
